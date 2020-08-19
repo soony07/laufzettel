@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- custom css -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_blanko.css') }}">
+
+  <!-- Load icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- bootstrap lib -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- JQUERRY Lib-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Animate CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+<body>
+
+<page size="A4">
+<div class="book">
+    <div class="page">
+      <div class="box">
+        <div class="small_box">
+        <div class="e1"></div>
+</div>
+  <div class="side_box">
+       
+        <div class="call_nr"><font class="call_font" ></font></div>
+        <div class="platz"></div>
+          
+
+        <div class="fund_code"></div>
+
+
+        
+        <div class="vendor"> </div>
+
+        <div class="internal_note">Internal Note: </div>
+        <div class="pflicht"></div>
+
+        <div class="pflicht1"></div>
+
+
+  
+</div>
+
+    </div>
+
+    <div class="comment"> Kommentar:</div>
+
+    <div class="ac_box"> 
+      <div class="ac"></div>
+
+      <div class="barcode"></div>
+
+      <div class="autor"></div>
+
+      <div class="titel"></div>
+
+            <div class="public_note">Public Note:</div>
+
+     
+    </div>
+
+    <div class="abteilung_box">
+
+ <table id="abteilung_table" class="newtablestyle">
+        <thead class="thead-dark">
+          <tr class="frist_row">
+            <th class="col_1" scope="col">Abteilung</th>
+            <th class="col_col" scope="col">KAT</th>
+            <th class="col_col" scope="col">ERW</th>
+            <th class="col_col" scope="col">ZS </th>
+            <th class="col_col" scope="col">SE </th>
+       
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="row_1" scope="row">Bearbeitet von:</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+ </table>
+    </div>
+        <table class="richtlinie_table">
+          <tr class="richtlinien_zeile">
+            <th class="tg-031">Richtlinie</th>
+            <th class="tg-031e"></th>
+            <th class="tg-031e"></th>
+            <th class="tg-031e"></th>
+
+          </tr>
+          <tr class="tage_zeile">
+            <td class="tg-031">3 Tage</td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+
+          </tr>
+          <tr class="entlehnbar_zeile">
+            <td class="tg-031">Entlehnbar</td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+
+          </tr>
+          <tr class="studierende_zeile">
+            <td class="tg-031">Nur für Studierende</td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+
+          </tr>
+          <tr class="nicht_ent_zeile">
+            <td class="tg-031">Nicht entlehnbar</td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+
+          </tr>
+          <tr class="institut_zeile">
+            <td class="tg-031">Am Institut</td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+            <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+
+          </tr>
+          <tr class="sonstige_zeile">
+            <td class="tg-031">Sonstige</td>
+            <td class="tg-03"></td>
+            <td class="tg-03"></td>
+            <td class="tg-03"></td>
+
+          </tr>
+          <tr>
+            <td class="standort_zeile" class="tg-031">STANDORT</td>
+            <td class="tg-031e"></td>
+            <td class="tg-031e"></td>
+            <td class="tg-031e"></td>
+
+          </tr>
+        </table>
+
+        <div class="signature">SYST:</div>
+
+
+      <div class="comment">ADJ:</div>
+
+      <div class="abteilung_box2">
+
+        <table id="abteilung_table2" class="newtablestyle">
+               <thead class="thead-dark">
+                 <tr class="frist_row">
+                   <th class="col_col1" scope="col">VON</th>
+                   <th class="col_col1" scope="col">AN</th>
+                   <th class="col_col1" scope="col">AN</th>
+                   <th class="col_zuruck" scope="col">Zurück AN </th>
+                   <th class="col_buchbinder" scope="col">Buchbinder</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th id="last_row" scope="row"></th>
+                   <td id="last_row"></td>
+                   <td id="last_row"></td>
+                   <td id="last_row"></td>
+                   <td id="last_row"></td>
+                 </tr>
+               </tbody>
+        </table>
+           </div>
+           <div class="kommentar">ZS: </div>
+
+    </div>
+
+    </div>
+
+  </div>
+    </div>
+
+      </div>
+
+
+
+      </div>
+
+    </div>
+    
+    </div>
+    <div class="page2">
+        <div class="box">
+          <div class="small_box">
+          <div class="e1"></div>
+  </div>
+    <div class="side_box">
+         
+          <div class="call_nr"><font class="call_font" ></font></div>
+          <div class="platz"></div>
+            
+  
+          <div class="fund_code"></div>
+  
+  
+          
+          <div class="vendor"> </div>
+  
+          <div class="internal_note">Internal Note: </div>
+          <div class="pflicht"></div>
+  
+          <div class="pflicht1"></div>
+  
+  
+    
+  </div>
+  
+      </div>
+  
+      <div class="comment"> Kommentar:</div>
+  
+      <div class="ac_box"> 
+        <div class="ac"></div>
+  
+        <div class="barcode"></div>
+  
+        <div class="autor"></div>
+  
+        <div class="titel"></div>
+  
+              <div class="public_note">Public Note:</div>
+  
+       
+      </div>
+  
+      <div class="abteilung_box">
+  
+   <table id="abteilung_table" class="newtablestyle">
+          <thead class="thead-dark">
+            <tr class="frist_row">
+              <th class="col_1" scope="col">Abteilung</th>
+              <th class="col_col" scope="col">KAT</th>
+              <th class="col_col" scope="col">ERW</th>
+              <th class="col_col" scope="col">ZS </th>
+              <th class="col_col" scope="col">SE </th>
+         
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="row_1" scope="row">Bearbeitet von:</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+   </table>
+      </div>
+          <table class="richtlinie_table">
+            <tr class="richtlinien_zeile">
+              <th class="tg-031">Richtlinie</th>
+              <th class="tg-031e"></th>
+              <th class="tg-031e"></th>
+              <th class="tg-031e"></th>
+  
+            </tr>
+            <tr class="tage_zeile">
+              <td class="tg-031">3 Tage</td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+  
+            </tr>
+            <tr class="entlehnbar_zeile">
+              <td class="tg-031">Entlehnbar</td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+  
+            </tr>
+            <tr class="studierende_zeile">
+              <td class="tg-031">Nur für Studierende</td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+  
+            </tr>
+            <tr class="nicht_ent_zeile">
+              <td class="tg-031">Nicht entlehnbar</td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+  
+            </tr>
+            <tr class="institut_zeile">
+              <td class="tg-031">Am Institut</td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+              <td class="tg-03"><input type="checkbox" name="query_myTextEditBox"></td>
+  
+            </tr>
+            <tr class="sonstige_zeile">
+              <td class="tg-031">Sonstige</td>
+              <td class="tg-03"></td>
+              <td class="tg-03"></td>
+              <td class="tg-03"></td>
+  
+            </tr>
+            <tr>
+              <td class="standort_zeile" class="tg-031">STANDORT</td>
+              <td class="tg-031e"></td>
+              <td class="tg-031e"></td>
+              <td class="tg-031e"></td>
+  
+            </tr>
+          </table>
+  
+          <div class="signature">SYST:</div>
+  
+  
+        <div class="comment">ADJ:</div>
+  
+        <div class="abteilung_box2">
+  
+          <table id="abteilung_table2" class="newtablestyle">
+                 <thead class="thead-dark">
+                   <tr class="frist_row">
+                     <th class="col_col1" scope="col">VON</th>
+                     <th class="col_col1" scope="col">AN</th>
+                     <th class="col_col1" scope="col">AN</th>
+                     <th class="col_zuruck" scope="col">Zurück AN </th>
+                     <th class="col_buchbinder" scope="col">Buchbinder</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+                   <tr>
+                     <th id="last_row" scope="row"></th>
+                     <td id="last_row"></td>
+                     <td id="last_row"></td>
+                     <td id="last_row"></td>
+                     <td id="last_row"></td>
+                   </tr>
+                 </tbody>
+          </table>
+             </div>
+             <div class="kommentar">ZS: </div>
+  
+      </div>
+  
+      </div>
+  
+    </div>
+      </div>
+  
+        </div>
+  
+  
+  
+        </div>
+  
+      </div>
+      
+      </div>
+</div>
+</page>
+<!--  <button  type="submit" class="btn btn-primary" id="printPageButton" onclick="javascript:window.print()">Print it</button> -->
+  </body>
+</html>

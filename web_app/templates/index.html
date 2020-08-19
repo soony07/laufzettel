@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laufzettel</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="form">
+   
+
+         <h2>Laufzettel</h2>
+         <hr>
+         <div class="searchbackground">
+        <form method="POST" action="./getbarcode">
+            <!-- Suchleiste -->
+
+           <div class="search-bar">
+                <input type="text" class="searchTerm" name="search" value="" required autocomplete="off" id="myinput"
+                    placeholder="Barcode" autofocus></input>
+                    <br>
+                    <br>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        Abrufen
+                     </button>
+                    </form>
+                    <br>
+                    <hr>
+                    
+                   <!-- <form method="POST" action="./blankoformular">
+                        <button type="submit" class="btn btn-primary">
+                            Blankoformular
+                         </button>
+                    </form> -->
+
+                <a href="{{ url_for('static', filename='pdf/laufzettel_a4.pdf') }}" class="btn" style="width:100%"><i class="fa fa-download"></i> Blankoformular</a>
+
+                 
+            </div>
+
+    </form> 
+    </div></div>
+    
+</body>
+
+</html>

@@ -1,0 +1,497 @@
+@media print{
+  @page{
+    margin:0;
+    padding:0;
+    size:210mm 297mm
+  }
+  body{width: 210mm; height: 297mm;}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    width: 20.0cm;
+    height: 29cm;
+}
+
+
+.page {
+    width: 10.0cm;
+    height: 29cm;
+    padding: 0.1cm;
+    margin-top: 4mm;
+    margin-left: 5mm;
+   /* border: 1px #D3D3D3 solid; */
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.page2 {
+  width: 10.0cm;
+  height: 29cm;
+  padding: 0.1cm;
+  margin-top: 3mm;
+  margin-left: 4mm;
+ /* border: 1px #D3D3D3 solid;*/
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+div.page2{
+  margin-left: 405px;
+  margin-top: -1096px;
+}
+
+.box {
+    
+    height: 5.99cm;
+    width:9.80cm;
+    border: 0px solid black;
+    font-weight: bold;
+    display:flex;
+    
+  }
+  .box {
+    
+    height: 5.99cm;
+    width:9.80cm;
+    border: 0px solid black;
+    font-weight: bold;
+    display:flex;
+    
+  }
+
+.e1{
+margin-left:1.5px;
+margin-top:1.56cm;
+border: 2.5px solid black;
+flex-direction: column;
+width: 1.5cm;
+height: 1.16cm;
+
+}
+.e2{
+    margin-left:1.5px;
+    border: 2px solid black;
+    margin-top:1px;
+    flex-direction: column;
+    width: 1.5cm;
+    height: 2cm;
+    
+ }
+
+.side_box{
+    margin-top:1.5px;
+    margin-left:2px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: baseline;
+    height: 6.5cm;
+}
+
+.small_box{
+  height: 2.7cm;
+}
+
+.break{
+    flex-basis:100%;
+    height:0;
+}
+.call_nr_name{
+    width: 3.5cm;
+    border: 2px solid black;
+    height: 1.5cm;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.call_nr{
+    width:3.45cm;
+    border: 2px solid black;
+    height: 1.5cm;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: -58.7px;
+
+}
+
+.call_font{
+  margin-right:2px;
+  font-weight: bold;
+  text-align: right;
+  font-size:13px;
+}
+
+.platz{
+    width:6.2cm;
+    border: 2px solid black;
+    height: 1.5cm;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.fund_code_name{
+    width: 3.5cm;
+    border: 2px solid black;
+    height: 1.5cm;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fund_code{
+    width: 8.10cm;
+    border: 2px solid black;
+    height: 1.2cm;
+    display: flex;
+  flex-direction: column;
+
+}
+
+.vendor_name{  
+    width: 3.5cm;
+    border: 2px solid black;
+    height: 2cm;
+    display: flex;
+    flex-direction: column;
+}
+.vendor{ 
+    width: 9.65cm;
+    border: 2px solid black;
+    height: 1.2cm;
+    display: flex;
+    flex-direction: column;
+    margin-left:-58.7px;
+}
+
+  .internal_box{
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2.5cm;
+  }
+
+  .internal_note{
+    width: 7.96cm;
+    border: 2px solid black;
+    font-weight: normal;
+    margin-left: -58.7px;
+    height: 1.9cm;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pflicht{
+    width: 1.69cm;
+    border: 2px solid black;
+    height: 0.95cm;
+    display: flex;
+    flex-direction: column;
+    margin-right: -1.5cm;
+    
+  }
+
+  .pflicht1{
+    width: 1.7cm;
+    border: 2px solid black;
+    height: 0.95cm;
+    display: flex;
+    flex-direction: column;
+    border-top:0px;
+    margin-top: 0.95cm;
+    margin-left:-2mm;
+
+  }
+
+  .comment{
+    width: 9.6cm;
+    height:1.6cm;
+    margin-left:0.5mm;
+    
+    border:1px solid rgba(0,0,0,.3);
+  }
+  
+  .ac_box{
+    margin-top:1.5px;
+    width: 10.3cm;
+    height:4.4cm;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: baseline;
+  }
+
+.ac_name{
+  width: 2.9cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.5cm;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.ac{
+  width:4.9cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 0.8cm;
+  margin-left:0.5mm;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.barcode_name{
+  width: 2.5cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.5cm;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.barcode{
+  width:4.7cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 0.8cm;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.autor_name{
+  width: 3.1cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.5cm;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.autor{
+  width:9.6cm;
+  margin-left:0.5mm;
+
+  border: 1px solid rgba(0,0,0,.3);
+  height: 0.8cm;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.titel_name{
+  width: 3.1cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.5cm;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.titel{
+  width:9.6cm;
+  margin-left:0.5mm;
+
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.2cm;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+.public_note_name{
+  width: 3.1cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.3cm;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.public_note{
+  width:9.6cm;
+  margin-left:0.5mm;
+
+  border: 1px solid rgba(0,0,0,.3);
+  height: 1.8cm;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.abteilung_box{
+  width: 9.6cm;
+  margin-left:0.5mm;
+
+  height:2.5cm;
+  display:flex;
+  flex-wrap:wrap;
+  align-content: baseline;
+  margin-top: 15px;
+
+}
+
+.signature{
+  width: 9.6cm;
+  margin-left:0.5mm;
+
+  height:1.8cm;
+  margin-top:4px;
+  border:1px solid rgba(0,0,0,.3);
+}
+
+
+.row_1{
+  width:2.8cm;
+  font-size: 10px;
+}
+.col_1{
+  width: 2.8cm;
+  font-size: 10px;
+}
+
+tr.frist_row{
+  line-height: 6px;
+}
+
+/*
+.systematik{
+  margin:4px;
+  width:12.05cm;
+  border: 1px solid rgba(0,0,0,.3);
+  height: 10.7cm;
+  display: inline-flex;
+  flex-direction: column;
+}
+*/
+
+.richtlinie_table{
+  margin-top:10px;
+  width:9.73cm;
+  height: 7cm;
+}
+table.richtlinie_table{
+width:9.6cm;
+margin-left:0.5mm;
+
+margin-top: -25px;
+font-size: 12px;
+table-layout: fixed;
+}
+
+table.richtlinie_table, th, td {
+  border: 1px solid rgba(0,0,0,.3);
+
+}
+
+.richtlinien_zeile{
+  line-height: 18px !important;
+}
+
+.richtlinie_table tr{
+  line-height: 4px;
+
+}
+
+.sonstige_zeile{
+  line-height: 20px !important;
+
+}
+
+.standort_zeile{
+  line-height: 20px !important;
+  font-size: 12px;
+
+}
+
+.tg-031{
+  width:3cm;
+  font-size:12px;
+}
+
+.tg-03{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.col_col{
+  width: 02cm;
+  height: 0.4cm;
+}
+
+.col_col1{
+  width: 02.2cm;
+  height: 0.4cm;
+  font-size: 10px;
+}
+
+div.abteilung_box2{
+  width: 9.6cm;
+  margin-left:0.5mm;
+
+  height: 1.8cm;
+  margin-top:4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+}
+
+table#abteilung_table2{
+  width: 9.6cm;
+
+  height:2cm;
+  table-layout: inherit;
+
+}
+
+#last_row{
+  height:1cm;
+}
+
+.col_zuruck{
+  width: 2.6cm;
+  font-size:10px;
+}
+
+.col_buchbinder{
+  width: 1cm;
+  font-size:12px;
+
+}
+
+.kommentar{
+  width: 9.6cm;
+  margin-left:0.5mm;
+
+  height:1.6cm;
+ 
+  border:1px solid rgba(0,0,0,.3);
+}
+
+.tage_zeile{
+  height:0.6cm;
+}
+
+.entlehnbar_zeile{
+  height:0.6cm;
+
+}
+
+.studierende_zeile{
+  height:0.6cm;
+
+}
+
+.nicht_ent_zeile{
+  height:0.6cm;
+
+}
+
+.institut_zeile{
+  height:0.6cm;
+
+}
+
+.newtablestyle {
+  border-collapse: collapse!important;
+  height: 60px!important;
+}

@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+}
+div.searchbackground{
+margin: auto;
+width: 250px;
+text-align: center;
+
+}
+
+div.form{
+    padding: 20px;
+    margin:auto;
+    width:400px;
+    border: 1px solid #dee2e6 !important;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+.btn.btn-primary {
+color:#fff;
+background-color:#31738e;
+border-color:#ffffff;
+}
+
+
+  
+.btn.btn-primary:hover {
+color: #fff;
+background-color: #31738e;
+border-color: #31738e;
+  
+}
